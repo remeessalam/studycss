@@ -1,0 +1,189 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        top: 0;
+    }
+
+    50% {
+        top: -30px;
+        transform: scale(2.2);
+    }
+
+}
+
+.condainer {
+    background: linear-gradient(85deg, rgba(102, 102, 236, 0.617), rgba(218, 101, 101, 0.583));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+
+}
+
+.card {
+    background: linear-gradient(to right bottom, rgb(111, 195, 90), rgb(198, 164, 14));
+    width: 500px;
+    height: 500px;
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+
+}
+
+.one {
+    animation-delay: 1s;
+}
+
+.two {
+    animation-delay: 1.1s;
+}
+
+.three {
+    animation-delay: 1.2s;
+}
+
+.four {
+    animation-delay: 1.3s;
+}
+
+.five {
+    animation-delay: 1.4s;
+}
+
+.six {
+    animation-delay: 1.5s;
+}
+
+.seven {
+    animation-delay: 1.6s;
+}
+
+.eight {
+    animation-delay: 1.7s;
+}
+
+.nine {
+    animation-delay: 1.8s;
+}
+
+.ten {
+    animation-delay: 1.9s;
+}
+
+.eleven {
+    animation-delay: 2s;
+}
+
+h1 {
+    color: rgba(17, 26, 17, 0.743);
+    margin: 0;
+    font-family: monospace;
+    font-variant-caps: petite-caps;
+    animation: bounce 1.5s infinite;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+div .name {
+    animation: none;
+    display: flex;
+
+
+}
+
+.section {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(60, 38, 38, 0.48);
+
+}
+
+input {
+    width: 100%;
+    padding: 0px;
+    height: 60px;
+
+}
+
+.first {
+    display: flex;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+p {
+    margin: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    color: rgba(26, 5, 101, 0.577);
+}
+
+.header {
+    background-color: rgb(149, 51, 51);
+    position: fixed;
+    top: 80%;
+    left: 90%;
+    width: 120px;
+    height: 119px;
+    z-index: 2;
+    border: 1px solid rgb(66, 62, 96);
+    border-radius: 100px;
+}
+a{
+    text-decoration: none;
+    padding-top: 35px;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: none;
+    margin: 0;
+    padding: 0;
+    
+}
+h2{
+    margin: 0;
+    color: black;
+}
+.sample{
+    background-color: violet;
+    max-width: 400px;
+    min-height: 400px;
+    background-color: #dab70a;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(48, 166, 48);
+    padding-top: 100px;
+
+}
+
+.content p {
+    margin: 0;
+
+}
