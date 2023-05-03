@@ -1,6 +1,7 @@
-html{
+html {
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -18,7 +19,7 @@ body {
     }
 
     50% {
-        top: -30px;
+        top: -50px;
         transform: scale(2.2);
     }
 
@@ -151,7 +152,8 @@ p {
     border: 1px solid rgb(66, 62, 96);
     border-radius: 100px;
 }
-a{
+
+a {
     text-decoration: none;
     padding-top: 35px;
     color: rgba(0, 0, 0, 0.752);
@@ -162,17 +164,22 @@ a{
     animation: none;
     margin: 0;
     padding: 0;
-    
+
 }
-h2{
+
+h2 {
     margin: 0;
     color: black;
 }
-.sample{
-    background-color: violet;
+
+.sample {
+    background-color: rgb(140, 71, 140);
     max-width: 400px;
     min-height: 400px;
-    background-color: #dab70a;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 5px;
 }
 
 .content {
@@ -181,9 +188,61 @@ h2{
     background-color: rgb(48, 166, 48);
     padding-top: 100px;
 
+
 }
 
+.ones,
+.twos,
+.threes {
+    width: 120px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid rgb(20, 11, 11);
+    text-align: center;
+    padding: 5px;
+
+}
+
+/* .ones{
+    order: 2;
+}
+.twos{
+    order: 3;
+}
+.threes{
+    order: 1;
+} */
 .content p {
     margin: 0;
 
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    background-color: paleturquoise;
+    border: 7px solid black;
+    border-top: 7px solid rgb(224, 187, 118);
+    border-bottom: 7px solid rgb(224, 187, 118);
+    border-radius: 50%;
+    animation: spin  linear infinite;
+    animation-duration: 1s;
+    
+
+}
+
+@keyframes spin {
+
+    0% {
+        transform: rotate(0deg) scale(.7);
+    }
+
+    /* 50% {
+        transform: rotate(180deg) scale(1.4);
+
+
+    } */
+    100%{
+        transform: rotate(360deg) scale(.7)
+    }
 }
